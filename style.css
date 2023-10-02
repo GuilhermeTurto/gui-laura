@@ -89,6 +89,20 @@ section.imagem > p {
 section#img01 {
   background-image: url(imagens/gl.jpg);
   background-position: left top;
+  display: block;
+  margin: auto;
+  
+}
+@media (max-width: 350px) {
+  .img01 {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .imagem {
+    display: none;
+  }
 }
 
 section#img02 {
